@@ -25,35 +25,39 @@
         <h2>Work Experience</h2>
         <!-- Add cool-timeline markup -->
         <div class="cool_timeline">
-            <div class="timeline" id="timeline">
-                <div class="timeline-month">
-                    <h2 class="timeline-month-title">April 2023</h2>
-                    <div class="timeline-section">
-                        <div class="timeline-date">April 23</div>
+            <ul>
+                <li>
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="fa fa-briefcase"></i>
+                        </div>
                         <div class="timeline-content">
-                            <div class="timeline-icon">
-                                <i class="fa fa-briefcase"></i>
-                            </div>
-                            <div class="timeline-title">Summer Associate at Bain & Company</div>
-                            <div class="timeline-description">Engaged in the B2C Pricing CoE and utilized Python and ML algorithms for KVI classification in the Retail Domain</div>
+                            <h3 class="title">April 2023</h3>
+                            <p>Bain & Company, Gurugram, India</p>
+                            <p>Summer Associate (04/2023 – 06/2023)</p>
+                            <p>Engaged in the B2C Pricing CoE and utilized Python and ML algorithms for KVI classification in the Retail Domain</p>
+                            <p>Developed 5+ VBA dashboard to assess impact (units/revenue/margin) of shifting to user-recommended price index</p>
+                            <p>Streamlined the entire process, enabling the business to generate their own product classification at a half-yearly basis</p>
+                            <p>Created a summary deck consisting of 15 slides outlining the methodology, end-to-end process, and actionable insights</p>
                         </div>
                     </div>
-                </div>
-                <div class="timeline-month">
-                    <h2 class="timeline-month-title">March 2022</h2>
-                    <div class="timeline-section">
-                        <div class="timeline-date">March 2022</div>
+                </li>
+                <li>
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="fa fa-briefcase"></i>
+                        </div>
                         <div class="timeline-content">
-                            <div class="timeline-icon">
-                                <i class="fa fa-briefcase"></i>
-                            </div>
-                            <div class="timeline-title">Associate at Axtria</div>
-                            <div class="timeline-description">Contributed to ETL-based projects across 8+ Life Science subject areas within the Business Intelligence Management team</div>
+                            <h3 class="title">March 2022</h3>
+                            <p>Axtria, Gurugram, India</p>
+                            <p>Associate (03/2022 – 05/2022)</p>
+                            <p>Contributed to ETL-based projects across 8+ Life Science subject areas within the Business Intelligence Management team</p>
+                            <p>Attained consistent performance exceeding expectations and meeting 99% of the KPIs, resulting in successive promotions</p>
                         </div>
                     </div>
-                </div>
+                </li>
                 <!-- Add more timeline items as needed -->
-            </div>
+            </ul>
         </div>
     </section>
     
