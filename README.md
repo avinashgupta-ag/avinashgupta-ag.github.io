@@ -66,8 +66,7 @@
         }
 
         .work-experience {
-            overflow-y: auto;
-            max-height: 400px;
+            overflow-x: auto;
             padding-right: 20px;
         }
 
