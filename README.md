@@ -66,19 +66,34 @@
         }
 
         .work-experience {
-            overflow-x: scroll;
-            white-space: nowrap;
-            padding-bottom: 20px; /* Add some space at the bottom for better appearance */
+            overflow-y: auto;
+            max-height: 400px;
+            padding-right: 20px;
         }
 
-        .work-experience .company-logo {
+        .timeline-item {
+            position: relative;
+            padding: 20px 40px;
+            margin-bottom: 40px;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .timeline-item:hover {
+            transform: scale(1.02);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .company-logo {
             max-width: 100px;
             height: auto;
             margin-right: 20px;
             transition: transform 0.3s ease;
         }
 
-        .work-experience .company-logo:hover {
+        .company-logo:hover {
             transform: scale(1.1);
         }
 
@@ -116,9 +131,29 @@
     <section id="work-experience">
         <h2>Work Experience</h2>
         <div class="work-experience">
-            <img src="https://drive.google.com/uc?id=1nnYV3vA_YOzcFRxRmqR4jDAyCHUH-8bi" alt="Bain & Company" class="company-logo">
-            <img src="https://drive.google.com/uc?id=1gokiyRUmA2Ndx9ssUveUz__jgxYEV0os" alt="Axtria" class="company-logo">
-            <!-- Add more company logos here -->
+            <div class="timeline">
+                <div class="timeline-item">
+                    <img src="https://drive.google.com/uc?id=1nnYV3vA_YOzcFRxRmqR4jDAyCHUH-8bi" alt="Bain & Company" class="company-logo">
+                    <h3>Bain & Company, Gurugram, India</h3>
+                    <p>Summer Associate (04/2023 – 06/2023)</p>
+                    <ul>
+                        <li>Engaged in the B2C Pricing CoE and utilized Python and ML algorithms for KVI classification in the Retail Domain</li>
+                        <li>Developed 5+ VBA dashboard to assess impact (units/revenue/margin) of shifting to user-recommended price index</li>
+                        <li>Streamlined the entire process, enabling the business to generate their own product classification at a half-yearly basis</li>
+                        <li>Created a summary deck consisting of 15 slides outlining the methodology, end-to-end process, and actionable insights</li>
+                    </ul>
+                </div>
+                <div class="timeline-item">
+                    <img src="https://drive.google.com/uc?id=1gokiyRUmA2Ndx9ssUveUz__jgxYEV0os" alt="Axtria" class="company-logo">
+                    <h3>Axtria, Gurugram, India</h3>
+                    <p>Associate (03/2022 – 05/2022)</p>
+                    <ul>
+                        <li>Contributed to ETL-based projects across 8+ Life Science subject areas within the Business Intelligence Management team</li>
+                        <li>Attained consistent performance exceeding expectations and meeting 99% of the KPIs, resulting in successive promotions</li>
+                    </ul>
+                </div>
+                <!-- Add more timeline items as needed -->
+            </div>
         </div>
     </section>
     
