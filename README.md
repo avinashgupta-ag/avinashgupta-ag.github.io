@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Avinash Gupta - Resume</title>
+    <!-- Bootstrap CSS -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <!-- Bootstrap JS -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <!-- jQuery -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="styles.css">
     <style>
         /* Add your custom styles here */
@@ -112,254 +119,72 @@
             margin-top: 40px;
         }
 
-        /* Timeline styles */
-        .main-timeline {
-            position: relative;
+        /* Bootstrap 5 Timeline */
+        .experience {
+            font-family: 'Poppins', sans-serif;
         }
 
-        .main-timeline:before {
-            content: "";
-            display: block;
-            width: 2px;
-            height: 100%;
-            background: #c6c6c6;
-            margin: 0 auto;
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-        }
-
-        .main-timeline .timeline {
-            margin-bottom: 40px;
-            position: relative;
-        }
-
-        .main-timeline .timeline:after {
-            content: "";
-            display: block;
-            clear: both;
-        }
-
-        .main-timeline .icon {
-            width: 18px;
-            height: 18px;
-            line-height: 18px;
-            margin: auto;
-            position: absolute;
-            top: 0;
-            left: 0;
-            bottom: 0;
-            right: 0;
-        }
-
-        .main-timeline .icon:before,
-        .main-timeline .icon:after {
-            content: "";
-            width: 100%;
-            height: 100%;
-            border-radius: 50%;
-            position: absolute;
-            top: 0;
-            left: 0;
-            transition: all 0.33s ease-out 0s;
-        }
-
-        .main-timeline .icon:before {
-            background: #fff;
-            border: 2px solid #232323;
-            left: -3px;
-        }
-
-        .main-timeline .icon:after {
-            border: 2px solid #c6c6c6;
-            left: 3px;
-        }
-
-        .main-timeline .timeline:hover .icon:before {
-            left: 3px;
-        }
-
-        .main-timeline .timeline:hover .icon:after {
-            left: -3px;
-        }
-
-        .main-timeline .date-content {
-            width: 50%;
-            float: left;
-            margin-top: 22px;
-            position: relative;
-        }
-
-        .main-timeline .date-content:before {
-            content: "";
-            width: 36.5%;
-            height: 2px;
-            background: #c6c6c6;
-            margin: auto 0;
-            position: absolute;
-            top: 0;
-            right: 10px;
-            bottom: 0;
-        }
-
-        .main-timeline .date-outer {
-            width: 125px;
-            height: 125px;
-            font-size: 16px;
-            text-align: center;
-            margin: auto;
-            z-index: 1;
-        }
-
-        .main-timeline .date-outer:before,
-        .main-timeline .date-outer:after {
-            content: "";
-            width: 125px;
-            height: 125px;
-            margin: 0 auto;
-            border-radius: 50%;
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            transition: all 0.33s ease-out 0s;
-        }
-
-        .main-timeline .date-outer:before {
-            background: #fff;
-            border: 2px solid #232323;
-            left: -6px;
-        }
-
-        .main-timeline .date-outer:after {
-            border: 2px solid #c6c6c6;
-            left: 6px;
-        }
-
-        .main-timeline .timeline:hover .date-outer:before {
-            left: 6px;
-        }
-
-        .main-timeline .timeline:hover .date-outer:after {
-            left: -6px;
-        }
-
-        .main-timeline .date {
-            width: 100%;
-            margin: auto;
-            position: absolute;
-            top: 27%;
-            left: 0;
-        }
-
-        .main-timeline .month {
-            font-size: 18px;
-            font-weight: 700;
-        }
-
-        .main-timeline .year {
-            display: block;
+        .section-title h4 {
+            color: #222;
             font-size: 30px;
             font-weight: 700;
-            color: #232323;
-            line-height: 36px;
+            margin-bottom: 10px;
         }
 
-        .main-timeline .timeline-content {
-            width: 50%;
-            padding: 20px 0 20px 50px;
-            float: right;
-        }
-
-        .main-timeline .title {
-            font-size: 19px;
-            font-weight: 700;
-            line-height: 24px;
-            margin: 0 0 15px 0;
-        }
-
-        .main-timeline .description {
+        .section-title p {
+            color: #555;
             margin-bottom: 0;
         }
 
-        .main-timeline .timeline:nth-child(2n) .date-content {
-            float: right;
+        .timeline-list {
+            padding: 0;
+            margin-top: 40px;
+            list-style: none;
+            position: relative;
         }
 
-        .main-timeline .timeline:nth-child(2n) .date-content:before {
-            left: 10px;
+        .timeline-list:before {
+            content: '';
+            background: #222;
+            width: 4px;
+            height: 100%;
+            position: absolute;
+            left: 50%;
+            top: 0;
+            transform: translateX(-50%);
         }
 
-        .main-timeline .timeline:nth-child(2n) .timeline-content {
-            padding: 20px 50px 20px 0;
-            text-align: right;
+        .timeline-list li {
+            margin-bottom: 50px;
+            position: relative;
         }
 
-        @media only screen and (max-width: 991px) {
-            .main-timeline .date-content {
-                margin-top: 35px;
-            }
-            .main-timeline .date-content:before {
-                width: 22.5%;
-            }
-            .main-timeline .timeline-content {
-                padding: 10px 0 10px 30px;
-            }
-            .main-timeline .title {
-                font-size: 17px;
-            }
-            .main-timeline .timeline:nth-child(2n) .timeline-content {
-                padding: 10px 30px 10px 0;
-            }
+        .timeline-list li:last-child {
+            margin-bottom: 0;
         }
 
-        @media only screen and (max-width: 767px) {
-            .main-timeline:before {
-                margin: 0;
-                left: 7px;
-            }
-            .main-timeline .timeline {
-                margin-bottom: 20px;
-            }
-            .main-timeline .timeline:last-child {
-                margin-bottom: 0;
-            }
-            .main-timeline .icon {
-                margin: auto 0;
-            }
-            .main-timeline .date-content {
-                width: 95%;
-                float: right;
-                margin-top: 0;
-            }
-            .main-timeline .date-content:before {
-                display: none;
-            }
-            .main-timeline .date-outer {
-                width: 110px;
-                height: 110px;
-            }
-            .main-timeline .date-outer:before,
-            .main-timeline .date-outer:after {
-                width: 110px;
-                height: 110px;
-            }
-            .main-timeline .date {
-                top: 30%;
-            }
-            .main-timeline .year {
-                font-size: 24px;
-            }
-            .main-timeline .timeline-content,
-            .main-timeline .timeline:nth-child(2n) .timeline-content {
-                width: 95%;
-                text-align: center;
-                padding: 10px 0;
-            }
-            .main-timeline .title {
-                margin-bottom: 10px;
-            }
+        .timeline_content {
+            padding-left: 50px;
+        }
+
+        .timeline_content span {
+            display: block;
+            color: #666;
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+
+        .timeline_content h4 {
+            color: #222;
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .timeline_content p {
+            color: #666;
+            margin-bottom: 0;
         }
     </style>
 </head>
@@ -388,38 +213,56 @@
     <section id="work-experience">
         <h2>Work Experience</h2>
         <div class="work-experience">
-            <div class="main-timeline">
-                <div class="timeline">
-                    <div class="icon"></div>
-                    <div class="date-content">
-                        <div class="date-outer">
-                            <span class="date">
-                                <span class="month">2 months</span>
-                                <span class="year">2023</span>
-                            </span>
+            <section class="experience pt-100 pb-100" id="experience">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-8 mx-auto text-center">
+                            <div class="section-title">
+                                <h4>bootstrap 5 timeline</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="timeline-content">
-                        <h3><img src="png-transparent-logo-bain-company-germany-inc-brand-product-bain-company-logo-text-logo-usc.png" alt="Bain & Company Logo" class="company-logo">
-                        Summer Associate          04/23 - 06/23</h3>
+                    <div class="row">
+                       <div class="col-xl-12">
+                          <ul class="timeline-list">
+                             <!-- Single Experience -->
+                             <li>
+                                <div class="timeline_content">
+                                   <span>2008</span>
+                                   <h4>Intern Developer span</h4>
+                                   <p>We gather your business and products information. We then determine the direction of the project and understand your goals and we combine your ideas with ours for an amazing website.</p>
+                                </div>
+                             </li>
+                             <!-- Single Experience -->
+                             <li>
+                                <div class="timeline_content">
+                                <span>2007-2012</span>
+                                   <h4>Junior Developer</h4>
+                                   <p>We gather your business and products information. We then determine the direction of the project and understand your goals and we combine your ideas with ours for an amazing website.</p>
+                                </div>
+                             </li>
+                             <!-- Single Experience -->
+                             <li>
+                                <div class="timeline_content">
+                                <span>2012-2015</span>
+                                   <h4>Senior Developer</h4>
+                                   <p>We gather your business and products information. We then determine the direction of the project and understand your goals and we combine your ideas with ours for an amazing website.</p>
+                                </div>
+                             </li>
+                             <!-- Single Experience -->
+                             <li>
+                                <div class="timeline_content">
+                                <span>2015-2018</span>
+                                   <h4>Project Manager</h4>
+                                   <p>We gather your business and products information. We then determine the direction of the project and understand your goals and we combine your ideas with ours for an amazing website.</p>
+                                </div>
+                             </li>
+                          </ul>
+                       </div>
                     </div>
                 </div>
-                <div class="timeline">
-                    <div class="icon"></div>
-                    <div class="date-content">
-                        <div class="date-outer">
-                            <span class="date">
-                                <span class="month">29 months</span>
-                                <span class="year">2022</span>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="timeline-content">
-                        <h3> <img src="Axtria_Logo.png" alt="Axtria Logo" class="company-logo">
-                        Associate                 12/19 - 05/22</h3>
-                    </div>
-                </div>
-            </div>
+              </section>
         </div>
     </section>
     
