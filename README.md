@@ -122,7 +122,7 @@
     <section id="about">
         <h2>About Me</h2>
         <div style="text-align: center;">
-            <img src="https://drive.google.com/uc?id=1pVI-b3oPNtYSHQawzNSehe9j4sIiBSyE" alt="Your Photo" style="width: 200px; height: 200px; border-radius: 50%;">
+            <img src="https://drive.google.com/file/d/1pVI-b3oPNtYSHQawzNSehe9j4sIiBSyE/view?usp=drive_link" alt="Your Photo" style="width: 200px; height: 200px; border-radius: 50%;">
             <p style="font-size: 20px; font-weight: bold; margin-top: 20px;">Hi, I'm Avinash Gupta</p>
         </div>
     </section>
