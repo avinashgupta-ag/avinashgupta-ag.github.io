@@ -67,15 +67,13 @@
 
         .work-experience {
             overflow-x: auto;
-            white-space: nowrap;
-            padding: 20px 0;
+            padding-right: 20px;
         }
 
         .timeline-item {
-            display: inline-block;
-            vertical-align: top;
-            width: 400px; /* Set a fixed width for each item */
-            margin-right: 20px;
+            position: relative;
+            padding: 20px 40px;
+            margin-bottom: 40px;
             border-radius: 10px;
             background-color: #f9f9f9;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -90,7 +88,7 @@
         .company-logo {
             max-width: 100px;
             height: auto;
-            margin: 20px;
+            margin-right: 20px;
             transition: transform 0.3s ease;
         }
 
@@ -124,7 +122,7 @@
     <section id="about">
         <h2>About Me</h2>
         <div style="text-align: center;">
-            <img src="https://i.imgur.com/tAmTpg5.jpg" alt="Your Photo" style="width: 200px; height: 200px; border-radius: 50%;">
+            <img src="https://drive.google.com/uc?id=1pVI-b3oPNtYSHQawzNSehe9j4sIiBSyE" alt="Your Photo" style="width: 200px; height: 200px; border-radius: 50%;">
             <p style="font-size: 20px; font-weight: bold; margin-top: 20px;">Hi, I'm Avinash Gupta</p>
         </div>
     </section>
@@ -134,7 +132,7 @@
         <div class="work-experience">
             <div class="timeline">
                 <div class="timeline-item">
-                    <img src="https://i.imgur.com/S5zk8ge.png" alt="Bain & Company" class="company-logo">
+                    <img src="https://drive.google.com/uc?id=1nnYV3vA_YOzcFRxRmqR4jDAyCHUH-8bi" alt="Bain & Company" class="company-logo">
                     <h3>Bain & Company, Gurugram, India</h3>
                     <p>Summer Associate (04/2023 – 06/2023)</p>
                     <ul>
@@ -145,7 +143,7 @@
                     </ul>
                 </div>
                 <div class="timeline-item">
-                    <img src="https://i.imgur.com/S5zk8ge.png" alt="Axtria" class="company-logo">
+                    <img src="https://drive.google.com/uc?id=1gokiyRUmA2Ndx9ssUveUz__jgxYEV0os" alt="Axtria" class="company-logo">
                     <h3>Axtria, Gurugram, India</h3>
                     <p>Associate (03/2022 – 05/2022)</p>
                     <ul>
