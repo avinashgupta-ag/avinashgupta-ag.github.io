@@ -16,28 +16,20 @@
 
         .container {
             display: flex;
-            justify-content: space-between;
+            flex-direction: column;
             padding: 20px;
         }
 
-        .left-section {
-            width: 75%;
-            margin-right: 20px;
-        }
-
-        .right-section {
-            width: 25%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .section {
+        .left-section, .right-section {
             margin-bottom: 20px;
             background-color: #fff;
             border-radius: 10px;
             padding: 20px;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .section {
+            margin-bottom: 20px;
         }
 
         .resume-link {
@@ -68,6 +60,22 @@
 
         .logo-container img:hover {
             transform: scale(1.1);
+        }
+
+        @media (min-width: 768px) {
+            .container {
+                flex-direction: row;
+                justify-content: space-between;
+            }
+
+            .left-section {
+                width: 75%;
+                margin-right: 20px;
+            }
+
+            .right-section {
+                width: 25%;
+            }
         }
     </style>
 </head>
