@@ -70,19 +70,21 @@
             padding-right: 20px;
         }
 
-        .timeline-item {
-            position: relative;
-            padding: 20px 40px;
-            margin-bottom: 40px;
-            border-radius: 10px;
-            background-color: #f9f9f9;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        .accordion {
+            border-bottom: 1px solid #ccc;
+            margin-bottom: 20px; /* Add margin for spacing between accordion items */
         }
 
-        .timeline-item:hover {
-            transform: scale(1.02);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        .accordion-header {
+            cursor: pointer;
+            padding: 10px;
+            background-color: #f5f5f5;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .accordion-content {
+            display: none; /* Initially hide the content */
+            padding: 10px;
         }
 
         .company-logo {
@@ -138,13 +140,12 @@
     <section id="work-experience">
         <h2>Work Experience</h2>
         <div class="work-experience">
-            <div class="timeline">
-                <div class="timeline-item">
+            <div class="accordion">
+                <h3 class="accordion-header">Bain & Company, Gurugram, India - Summer Associate (04/2023 – 06/2023)</h3>
+                <div class="accordion-content">
                     <div class="logo-container">
                         <img src="png-transparent-logo-bain-company-germany-inc-brand-product-bain-company-logo-text-logo-usc.png" alt="Bain & Company Logo" class="company-logo">
                     </div>
-                    <h3>Bain & Company, Gurugram, India</h3>
-                    <p>Summer Associate (04/2023 – 06/2023)</p>
                     <ul>
                         <li>Engaged in the B2C Pricing CoE and utilized Python and ML algorithms for KVI classification in the Retail Domain</li>
                         <li>Developed 5+ VBA dashboard to assess impact (units/revenue/margin) of shifting to user-recommended price index</li>
@@ -152,19 +153,20 @@
                         <li>Created a summary deck consisting of 15 slides outlining the methodology, end-to-end process, and actionable insights</li>
                     </ul>
                 </div>
-                <div class="timeline-item">
+            </div>
+            <div class="accordion">
+                <h3 class="accordion-header">Axtria, Gurugram, India - Associate (03/2022 – 05/2022)</h3>
+                <div class="accordion-content">
                     <div class="logo-container">
                         <img src="Axtria_Logo.png" alt="Axtria Logo" class="company-logo">
                     </div>
-                    <h3>Axtria, Gurugram, India</h3>
-                    <p>Associate (03/2022 – 05/2022)</p>
                     <ul>
                         <li>Contributed to ETL-based projects across 8+ Life Science subject areas within the Business Intelligence Management team</li>
                         <li>Attained consistent performance exceeding expectations and meeting 99% of the KPIs, resulting in successive promotions</li>
                     </ul>
                 </div>
-                <!-- Add more timeline items as needed -->
             </div>
+            <!-- Add more accordion items as needed -->
         </div>
     </section>
     
@@ -207,5 +209,22 @@
     <footer>
         <p>&copy; 2024 Avinash Gupta. All rights reserved.</p>
     </footer>
+
+    <script>
+        // JavaScript for accordion functionality
+        const accordions = document.querySelectorAll('.accordion');
+
+        accordions.forEach(accordion => {
+            const header = accordion.querySelector('.accordion-header');
+
+            header.addEventListener('click', () => {
+                const content = accordion.querySelector('.accordion-content');
+                content.classList.toggle('active');
+
+                // Toggle the accordion arrow icon
+                header.classList.toggle('active');
+            });
+        });
+    </script>
 </body>
 </html>
