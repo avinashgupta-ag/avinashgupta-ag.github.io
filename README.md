@@ -160,7 +160,7 @@
         <div class="work-experience">
             <div class="timeline">
                 <div class="timeline-item">
-                    <img src="https://drive.google.com/file/d/1nnYV3vA_YOzcFRxRmqR4jDAyCHUH-8bi/view?usp=sharing">
+                    <img src="https://drive.google.com/file/d/1nnYV3vA_YOzcFRxRmqR4jDAyCHUH-8bi/view?usp=sharing" alt="Bain & Company" class="company-logo">
                     <h3>Bain & Company, Gurugram, India</h3>
                     <p>Summer Associate (04/2023 – 06/2023)</p>
                     <ul>
@@ -171,7 +171,7 @@
                     </ul>
                 </div>
                 <div class="timeline-item">
-                    <img src="https://drive.google.com/file/d/1gokiyRUmA2Ndx9ssUveUz__jgxYEV0os/view?usp=sharing" alt="Axtria" class="company-logo">
+                    <img src="https://drive.google.com/file/d/1gokiyRUmA2Ndx9ssUveUz__jgxYEV0os/view?usp=sharing alt="Bain & Company" class="company-logo" alt="Axtria" class="company-logo">
                     <h3>Axtria, Gurugram, India</h3>
                     <p>Associate (03/2022 – 05/2022)</p>
                     <ul>
