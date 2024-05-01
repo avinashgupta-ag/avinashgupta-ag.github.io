@@ -394,20 +394,15 @@
                     <div class="date-content">
                         <div class="date-outer">
                             <span class="date">
-                                <span class="month">04</span>
+                                <span class="month">2 months</span>
                                 <span class="year">2023</span>
                             </span>
                         </div>
                     </div>
                     <div class="timeline-content">
                         <h3>Bain & Company, Gurugram, India</h3>
-                        <p>Summer Associate</p>
-                        <ul>
-                            <li>Engaged in the B2C Pricing CoE and utilized Python and ML algorithms for KVI classification in the Retail Domain</li>
-                            <li>Developed 5+ VBA dashboard to assess impact (units/revenue/margin) of shifting to user-recommended price index</li>
-                            <li>Streamlined the entire process, enabling the business to generate their own product classification at a half-yearly basis</li>
-                            <li>Created a summary deck consisting of 15 slides outlining the methodology, end-to-end process, and actionable insights</li>
-                        </ul>
+                        <p><img src="png-transparent-logo-bain-company-germany-inc-brand-product-bain-company-logo-text-logo-usc.png" alt="Bain & Company Logo" class="company-logo">   Summer Associate          04/23 - 06/23
+                        </p>
                     </div>
                 </div>
                 <div class="timeline">
@@ -415,18 +410,14 @@
                     <div class="date-content">
                         <div class="date-outer">
                             <span class="date">
-                                <span class="month">03</span>
-                                <span class="year">2022</span>
+                                <span class="month">29</span>
+                                <span class="year">months</span>
                             </span>
                         </div>
                     </div>
                     <div class="timeline-content">
                         <h3>Axtria, Gurugram, India</h3>
-                        <p>Associate</p>
-                        <ul>
-                            <li>Contributed to ETL-based projects across 8+ Life Science subject areas within the Business Intelligence Management team</li>
-                            <li>Attained consistent performance exceeding expectations and meeting 99% of the KPIs, resulting in successive promotions</li>
-                        </ul>
+                        <p>Associate                 12/19 - 05/22</p>
                     </div>
                 </div>
             </div>
