@@ -400,9 +400,8 @@
                         </div>
                     </div>
                     <div class="timeline-content">
-                        <h3>Bain & Company, Gurugram, India</h3>
-                        <p><img src="png-transparent-logo-bain-company-germany-inc-brand-product-bain-company-logo-text-logo-usc.png" alt="Bain & Company Logo" class="company-logo">   Summer Associate          04/23 - 06/23
-                        </p>
+                        <h3><img src="png-transparent-logo-bain-company-germany-inc-brand-product-bain-company-logo-text-logo-usc.png" alt="Bain & Company Logo" class="company-logo">
+                        Summer Associate          04/23 - 06/23</h3>
                     </div>
                 </div>
                 <div class="timeline">
@@ -410,14 +409,14 @@
                     <div class="date-content">
                         <div class="date-outer">
                             <span class="date">
-                                <span class="month">29</span>
-                                <span class="year">months</span>
+                                <span class="month">29 months</span>
+                                <span class="year">2022</span>
                             </span>
                         </div>
                     </div>
                     <div class="timeline-content">
-                        <h3>Axtria, Gurugram, India</h3>
-                        <p>Associate                 12/19 - 05/22</p>
+                        <h3> <img src="Axtria_Logo.png" alt="Axtria Logo" class="company-logo">
+                        Associate                 12/19 - 05/22</h3>
                     </div>
                 </div>
             </div>
