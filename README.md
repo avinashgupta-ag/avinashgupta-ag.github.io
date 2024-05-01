@@ -76,6 +76,10 @@
             .right-section {
                 width: 25%;
             }
+
+            .right-section .logo-container {
+                justify-content: flex-start;
+            }
         }
     </style>
 </head>
