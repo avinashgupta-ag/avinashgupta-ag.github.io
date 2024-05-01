@@ -213,56 +213,33 @@
     <section id="work-experience">
         <h2>Work Experience</h2>
         <div class="work-experience">
-            <section class="experience pt-100 pb-100" id="experience">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-8 mx-auto text-center">
-                            <div class="section-title">
-                                <h4>bootstrap 5 timeline</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                            </div>
-                        </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="logo-container">
+                        <img src="png-transparent-logo-bain-company-germany-inc-brand-product-bain-company-logo-text-logo-usc.png" alt="Bain & Company Logo" class="company-logo">
                     </div>
-                    <div class="row">
-                       <div class="col-xl-12">
-                          <ul class="timeline-list">
-                             <!-- Single Experience -->
-                             <li>
-                                <div class="timeline_content">
-                                   <span>2008</span>
-                                   <h4>Intern Developer span</h4>
-                                   <p>We gather your business and products information. We then determine the direction of the project and understand your goals and we combine your ideas with ours for an amazing website.</p>
-                                </div>
-                             </li>
-                             <!-- Single Experience -->
-                             <li>
-                                <div class="timeline_content">
-                                <span>2007-2012</span>
-                                   <h4>Junior Developer</h4>
-                                   <p>We gather your business and products information. We then determine the direction of the project and understand your goals and we combine your ideas with ours for an amazing website.</p>
-                                </div>
-                             </li>
-                             <!-- Single Experience -->
-                             <li>
-                                <div class="timeline_content">
-                                <span>2012-2015</span>
-                                   <h4>Senior Developer</h4>
-                                   <p>We gather your business and products information. We then determine the direction of the project and understand your goals and we combine your ideas with ours for an amazing website.</p>
-                                </div>
-                             </li>
-                             <!-- Single Experience -->
-                             <li>
-                                <div class="timeline_content">
-                                <span>2015-2018</span>
-                                   <h4>Project Manager</h4>
-                                   <p>We gather your business and products information. We then determine the direction of the project and understand your goals and we combine your ideas with ours for an amazing website.</p>
-                                </div>
-                             </li>
-                          </ul>
-                       </div>
-                    </div>
+                    <h3>Bain & Company, Gurugram, India</h3>
+                    <p>Summer Associate (04/2023 – 06/2023)</p>
+                    <ul>
+                        <li>Engaged in the B2C Pricing CoE and utilized Python and ML algorithms for KVI classification in the Retail Domain</li>
+                        <li>Developed 5+ VBA dashboard to assess impact (units/revenue/margin) of shifting to user-recommended price index</li>
+                        <li>Streamlined the entire process, enabling the business to generate their own product classification at a half-yearly basis</li>
+                        <li>Created a summary deck consisting of 15 slides outlining the methodology, end-to-end process, and actionable insights</li>
+                    </ul>
                 </div>
-              </section>
+                <div class="timeline-item">
+                    <div class="logo-container">
+                        <img src="Axtria_Logo.png" alt="Axtria Logo" class="company-logo">
+                    </div>
+                    <h3>Axtria, Gurugram, India</h3>
+                    <p>Associate (03/2022 – 05/2022)</p>
+                    <ul>
+                        <li>Contributed to ETL-based projects across 8+ Life Science subject areas within the Business Intelligence Management team</li>
+                        <li>Attained consistent performance exceeding expectations and meeting 99% of the KPIs, resulting in successive promotions</li>
+                    </ul>
+                </div>
+                <!-- Add more timeline items as needed -->
+            </div>
         </div>
     </section>
     
