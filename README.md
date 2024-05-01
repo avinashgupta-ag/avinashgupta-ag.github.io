@@ -72,43 +72,39 @@
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
         }
 
-        .work-experience {
-            overflow-x: auto;
-            padding-right: 20px;
+        .static-section {
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 30%;
+            height: 100vh;
+            overflow-y: auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+            border-left: 1px solid #ccc;
         }
 
-        .timeline-item {
-            position: relative;
-            padding: 20px 40px;
-            margin-bottom: 40px;
-            border-radius: 10px;
-            background-color: #f9f9f9;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        .static-section h2 {
+            margin-top: 0;
         }
 
-        .timeline-item:hover {
-            transform: scale(1.02);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        .static-section img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
         }
 
         .company-logo {
+            max-width: 50px;
+            height: auto;
+            margin-right: 10px;
+        }
+
+        .education-logo {
             max-width: 100px;
             height: auto;
-            margin-right: 20px;
-            transition: transform 0.3s ease;
-        }
-
-        .company-logo:hover {
-            transform: scale(1.1);
-        }
-
-        .logo-container {
-            background-color: white;
-            display: inline-block;
-            padding: 5px; /* Adjust as needed */
-            border-radius: 5px; /* Adjust as needed */
-            margin-bottom: 10px; /* Adjust as needed */
+            margin-right: 10px;
         }
 
         footer {
@@ -118,74 +114,6 @@
             padding: 20px;
             margin-top: 40px;
         }
-
-        /* Bootstrap 5 Timeline */
-        .experience {
-            font-family: 'Poppins', sans-serif;
-        }
-
-        .section-title h4 {
-            color: #222;
-            font-size: 30px;
-            font-weight: 700;
-            margin-bottom: 10px;
-        }
-
-        .section-title p {
-            color: #555;
-            margin-bottom: 0;
-        }
-
-        .timeline-list {
-            padding: 0;
-            margin-top: 40px;
-            list-style: none;
-            position: relative;
-        }
-
-        .timeline-list:before {
-            content: '';
-            background: #222;
-            width: 4px;
-            height: 100%;
-            position: absolute;
-            left: 50%;
-            top: 0;
-            transform: translateX(-50%);
-        }
-
-        .timeline-list li {
-            margin-bottom: 50px;
-            position: relative;
-        }
-
-        .timeline-list li:last-child {
-            margin-bottom: 0;
-        }
-
-        .timeline_content {
-            padding-left: 50px;
-        }
-
-        .timeline_content span {
-            display: block;
-            color: #666;
-            font-size: 18px;
-            font-weight: 500;
-            margin-bottom: 10px;
-        }
-
-        .timeline_content h4 {
-            color: #222;
-            font-size: 24px;
-            font-weight: 600;
-            margin-bottom: 10px;
-        }
-
-        .timeline_content p {
-            color: #666;
-            margin-bottom: 0;
-        }
     </style>
 </head>
 <body>
@@ -193,66 +121,43 @@
         <h1>Avinash Gupta</h1>
         <nav>
             <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#work-experience">Work Experience</a></li>
-                <li><a href="#resume">Resume</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#resume">Resume</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
     
-    <section id="about">
-        <h2>About Me</h2>
+    <section class="static-section">
         <div style="text-align: center;">
-            <img src="pp1 (3).jpg" alt="Your Photo" style="width: 200px; height: 200px; border-radius: 50%;">
-            <p style="font-size: 20px; font-weight: bold; margin-top: 20px;">Hi, I'm Avinash Gupta</p>
-        </div>
-    </section>
-    
-    <section id="work-experience">
-        <h2>Work Experience</h2>
-        <div class="work-experience">
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="logo-container">
-                        <img src="png-transparent-logo-bain-company-germany-inc-brand-product-bain-company-logo-text-logo-usc.png" alt="Bain & Company Logo" class="company-logo">
-                    </div>
-                    <h3>Bain & Company, Gurugram, India</h3>
-                    <p>Summer Associate (04/2023 – 06/2023)</p>
-                    <ul>
-                        <li>Engaged in the B2C Pricing CoE and utilized Python and ML algorithms for KVI classification in the Retail Domain</li>
-                        <li>Developed 5+ VBA dashboard to assess impact (units/revenue/margin) of shifting to user-recommended price index</li>
-                        <li>Streamlined the entire process, enabling the business to generate their own product classification at a half-yearly basis</li>
-                        <li>Created a summary deck consisting of 15 slides outlining the methodology, end-to-end process, and actionable insights</li>
-                    </ul>
-                </div>
-                <div class="timeline-item">
-                    <div class="logo-container">
-                        <img src="Axtria_Logo.png" alt="Axtria Logo" class="company-logo">
-                    </div>
-                    <h3>Axtria, Gurugram, India</h3>
-                    <p>Associate (03/2022 – 05/2022)</p>
-                    <ul>
-                        <li>Contributed to ETL-based projects across 8+ Life Science subject areas within the Business Intelligence Management team</li>
-                        <li>Attained consistent performance exceeding expectations and meeting 99% of the KPIs, resulting in successive promotions</li>
-                    </ul>
-                </div>
-                <!-- Add more timeline items as needed -->
+            <img src="pp1 (3).jpg" alt="Your Photo">
+            <h2>Avinash Gupta</h2>
+            <h3>Work Experience</h3>
+            <div class="logo-container">
+                <img src="png-transparent-logo-bain-company-germany-inc-brand-product-bain-company-logo-text-logo-usc.png" alt="Bain & Company Logo" class="company-logo">
+                <span>Bain & Company</span>
             </div>
+            <div class="logo-container">
+                <img src="Axtria_Logo.png" alt="Axtria Logo" class="company-logo">
+                <span>Axtria</span>
+            </div>
+            <h3>Internship Experience</h3>
+            <!-- Add internship experiences with company logos -->
+            <h3>Education</h3>
+            <!-- Add education details with college logos -->
         </div>
-    </section>
-    
-    <section id="resume">
-        <h2>Resume</h2>
-        <p>Download my resume:</p>
-        <p><a href="https://drive.google.com/file/d/1AGNA0EBOOxe64iFeyf4fMO5ag0PJGkSN/view?usp=sharing" target="_blank">Download PDF</a></p>
     </section>
     
     <section id="portfolio">
         <h2>Portfolio</h2>
         <!-- Add your portfolio projects here -->
         <!-- Include project descriptions, images, links, etc. -->
+    </section>
+    
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>Download my resume:</p>
+        <p><a href="https://drive.google.com/file/d/1AGNA0EBOOxe64iFeyf4fMO5ag0PJGkSN/view?usp=sharing" target="_blank">Download PDF</a></p>
     </section>
     
     <section id="contact">
