@@ -16,6 +16,7 @@
             font-family: Arial, sans-serif;
             background-color: #f5f5f5;
             color: #333;
+            overflow-x: hidden;
         }
 
         header {
@@ -51,6 +52,11 @@
             background-color: #fff;
             border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
+        }
+
+        section:hover {
+            background-color: #f9f9f9;
         }
 
         section h2 {
@@ -109,6 +115,12 @@
         .timeline-item:last-child {
             margin-bottom: 0;
         }
+
+        .company-logo {
+            max-width: 100px;
+            height: auto;
+            margin-right: 20px;
+        }
     </style>
 </head>
 <body>
@@ -146,6 +158,7 @@
         <div class="work-experience">
             <div class="timeline">
                 <div class="timeline-item">
+                    <img src="bain_logo.png" alt="Bain & Company" class="company-logo">
                     <h3>Bain & Company, Gurugram, India</h3>
                     <p>Summer Associate (04/2023 – 06/2023)</p>
                     <ul>
@@ -156,6 +169,7 @@
                     </ul>
                 </div>
                 <div class="timeline-item">
+                    <img src="axtria_logo.png" alt="Axtria" class="company-logo">
                     <h3>Axtria, Gurugram, India</h3>
                     <p>Associate (03/2022 – 05/2022)</p>
                     <ul>
@@ -163,22 +177,7 @@
                         <li>Attained consistent performance exceeding expectations and meeting 99% of the KPIs, resulting in successive promotions</li>
                     </ul>
                 </div>
-                <div class="timeline-item">
-                    <h3>Axtria, Gurugram, India</h3>
-                    <p>Analyst (03/2021 – 03/2022)</p>
-                    <ul>
-                        <li>Developed SQL validation scripts which reduced Data Aggregation process time by 94% to enable weekly sales monitoring</li>
-                        <li>Collaborated effectively with 4+ cross-functional teams, business stakeholders, to deliver high-quality solutions</li>
-                    </ul>
-                </div>
-                <div class="timeline-item">
-                    <h3>Axtria, Gurugram, India</h3>
-                    <p>Trainee Analyst (12/2019 – 03/2021)</p>
-                    <ul>
-                        <li>Analyzed business logic and performed Data Reconciliation to ensure 0 gaps between legacy and data warehouse system</li>
-                        <li>Achieved 87% reduction in TAT of data issues/bug management process during quality assessment phases</li>
-                    </ul>
-                </div>
+                <!-- Add more timeline items as needed -->
             </div>
         </div>
     </section>
