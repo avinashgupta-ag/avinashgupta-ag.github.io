@@ -25,7 +25,7 @@
 
         section {
             padding: 40px;
-            margin: 0;
+            margin-bottom: 40px;
             background-color: #fff;
             border-radius: 10px;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -78,63 +78,38 @@
     </style>
 </head>
 <body>
-    <section class="static-section">
-        <div style="text-align: center;">
-            <img src="pp1 (3).jpg" alt="Your Photo">
-            <div>
-                <h2>Avinash Gupta</h2>
-                <h3>Work Experience</h3>
-                <div class="logo-container">
-                    <img src="png-transparent-logo-bain-company-germany-inc-brand-product-bain-company-logo-text-logo-usc.png" alt="Bain & Company Logo" class="company-logo">
-                    <img src="Axtria_Logo.png" alt="Axtria Logo" class="company-logo">
-                    <!-- Add more company logos for work experience -->
-                </div>
-                <h3>Internship Experience</h3>
-                <div class="logo-container">
-                    <!-- Add internship logos -->
-                </div>
-                <h3>Education</h3>
-                <div class="logo-container">
-                    <!-- Add education logos -->
-                </div>
-            </div>
-        </div>
-    </section>
+    <div class="static-section">
+        <img src="pp1 (3).jpg" alt="Your Photo">
+        <h2>Avinash Gupta</h2>
+        <h3>Work Experience</h3>
+        <img src="axtria.jpg" alt="Axtria Logo" class="company-logo">
+        <img src="Mu-Sigma.jpg" alt="Mu-Sigma Logo" class="company-logo">
+        
+        <h3>Internship Experience</h3>
+        <img src="bain.png" alt="Bain & Company Logo" class="internship-logo">
+        <img src="kantar.png" alt="Kantar Logo" class="internship-logo">
+        <img src="Menrva.webp" alt="Menrva Logo" class="internship-logo">
+        <img src="projectverde.png" alt="Project Verde Logo" class="internship-logo">
+        
+        <h3>Education</h3>
+        <img src="SCMHRD.jpeg" alt="SCMHRD Logo" class="education-logo">
+        <img src="SRM.png" alt="SRM Logo" class="education-logo">
+    </div>
     
+    <section id="about">
+        <!-- About Section Content -->
+    </section>
+
     <section id="portfolio">
-        <h2>Portfolio</h2>
-        <!-- Add your portfolio projects here -->
-        <!-- Include project descriptions, images, links, etc. -->
+        <!-- Portfolio Section Content -->
     </section>
     
     <section id="resume">
-        <h2>Resume</h2>
-        <p>Download my resume:</p>
-        <p><a href="https://drive.google.com/file/d/1AGNA0EBOOxe64iFeyf4fMO5ag0PJGkSN/view?usp=sharing" target="_blank">Download PDF</a></p>
+        <!-- Resume Section Content -->
     </section>
     
     <section id="contact">
-        <h2>Contact Me</h2>
-        <div style="display: flex; align-items: center;">
-            <div style="margin-right: 20px;">
-                <a href="https://www.linkedin.com/in/toavinashgupta">
-                    <img src="LinkedIn_icon.svg.png" alt="LinkedIn" style="width: 30px; height: 30px;">
-                </a>
-                <span style="margin-left: 5px;">LinkedIn</span>
-            </div>
-            <div style="margin-right: 20px;">
-                <a href="tel:+919884206218">
-                    <img src="green-phone-icon-vector-40526969.jpg" alt="Phone" style="width: 30px; height: 30px;">
-                </a>
-                <span style="margin-left: 5px;">+91-9884206218</span>
-            </div>
-            <div>
-                <a href="mailto:toavinashgupta@gmail.com">
-                    <img src="75c95f7281b1a5adf041f96a07f8a711.jpg" alt="Email" style="width: 30px; height: 30px;">
-                </a>
-                <span style="margin-left: 5px;">toavinashgupta@gmail.com</span>
-            </div>
-        </div>
+        <!-- Contact Section Content -->
     </section>   
     
     <footer>
