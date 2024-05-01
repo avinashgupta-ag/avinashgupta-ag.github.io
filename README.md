@@ -96,6 +96,14 @@
             transform: scale(1.1);
         }
 
+        .logo-container {
+            background-color: white;
+            display: inline-block;
+            padding: 5px; /* Adjust as needed */
+            border-radius: 5px; /* Adjust as needed */
+            margin-bottom: 10px; /* Adjust as needed */
+        }
+
         footer {
             background-color: #333;
             color: #fff;
@@ -122,7 +130,7 @@
     <section id="about">
         <h2>About Me</h2>
         <div style="text-align: center;">
-            <img src="https://drive.google.com/uc?id=1pVI-b3oPNtYSHQawzNSehe9j4sIiBSyE" alt="Your Photo" style="width: 200px; height: 200px; border-radius: 50%;">
+            <img src="pp1 (3).jpg" alt="Your Photo" style="width: 200px; height: 200px; border-radius: 50%;">
             <p style="font-size: 20px; font-weight: bold; margin-top: 20px;">Hi, I'm Avinash Gupta</p>
         </div>
     </section>
@@ -132,7 +140,9 @@
         <div class="work-experience">
             <div class="timeline">
                 <div class="timeline-item">
-                    <img src="png-transparent-logo-bain-company-germany-inc-brand-product-bain-company-logo-text-logo-usc.png" alt="Logo">
+                    <div class="logo-container">
+                        <img src="png-transparent-logo-bain-company-germany-inc-brand-product-bain-company-logo-text-logo-usc.png" alt="Bain & Company Logo" class="company-logo">
+                    </div>
                     <h3>Bain & Company, Gurugram, India</h3>
                     <p>Summer Associate (04/2023 – 06/2023)</p>
                     <ul>
@@ -143,7 +153,9 @@
                     </ul>
                 </div>
                 <div class="timeline-item">
-                    <img src="https://drive.google.com/uc?id=1gokiyRUmA2Ndx9ssUveUz__jgxYEV0os" alt="Axtria" class="company-logo">
+                    <div class="logo-container">
+                        <img src="Axtria_Logo.png" alt="Axtria Logo" class="company-logo">
+                    </div>
                     <h3>Axtria, Gurugram, India</h3>
                     <p>Associate (03/2022 – 05/2022)</p>
                     <ul>
@@ -167,14 +179,29 @@
         <!-- Add your portfolio projects here -->
         <!-- Include project descriptions, images, links, etc. -->
     </section>
-    
     <section id="contact">
-        <h2>Contact Me</h2>
-        <p>
-            Feel free to contact me via email at <a href="mailto:toavinashgupta@gmail.com">toavinashgupta@gmail.com</a> or give me a call at <a href="tel:+919884206218">+91-9884206218</a>. You can also connect with me on <a href="https://www.linkedin.com/in/toavinashgupta">LinkedIn</a>.
-        </p>
-    </section>
-
+    <h2>Contact Me</h2>
+    <div style="display: flex; align-items: center;">
+        <div style="margin-right: 20px;">
+            <a href="https://www.linkedin.com/in/toavinashgupta">
+                <img src="linkedin_logo.png" alt="LinkedIn" style="width: 30px; height: 30px;">
+            </a>
+            <span style="margin-left: 5px;">LinkedIn</span>
+        </div>
+        <div style="margin-right: 20px;">
+            <a href="tel:+919884206218">
+                <img src="phone_logo.png" alt="Phone" style="width: 30px; height: 30px;">
+            </a>
+            <span style="margin-left: 5px;">+91-9884206218</span>
+        </div>
+        <div>
+            <a href="mailto:toavinashgupta@gmail.com">
+                <img src="email_logo.png" alt="Email" style="width: 30px; height: 30px;">
+            </a>
+            <span style="margin-left: 5px;">toavinashgupta@gmail.com</span>
+        </div>
+    </div>
+</section>   
     <footer>
         <p>&copy; 2024 Avinash Gupta. All rights reserved.</p>
     </footer>
