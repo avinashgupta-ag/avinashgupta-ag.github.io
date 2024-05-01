@@ -23,44 +23,9 @@
             padding: 0;
         }
 
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            position: fixed;
-            width: 100%;
-            z-index: 1000;
-            top: 0;
-            left: 0;
-            transition: background-color 0.3s ease;
-        }
-
-        nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-        }
-
-        nav ul li {
-            display: inline;
-            margin-right: 20px;
-        }
-
-        nav ul li a {
-            color: #fff;
-            text-decoration: none;
-            font-weight: bold;
-            transition: color 0.3s ease;
-        }
-
-        nav ul li a:hover {
-            text-decoration: underline;
-            color: #ffd700;
-        }
-
         section {
             padding: 40px;
-            margin: 80px 0;
+            margin: 0;
             background-color: #fff;
             border-radius: 10px;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -95,14 +60,10 @@
             margin-bottom: 20px;
         }
 
-        .company-logo {
-            max-width: 50px;
-            height: auto;
-            margin-right: 10px;
-        }
-
+        .company-logo,
+        .internship-logo,
         .education-logo {
-            max-width: 100px;
+            max-width: 50px;
             height: auto;
             margin-right: 10px;
         }
@@ -117,34 +78,26 @@
     </style>
 </head>
 <body>
-    <header>
-        <h1>Avinash Gupta</h1>
-        <nav>
-            <ul>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    
     <section class="static-section">
         <div style="text-align: center;">
             <img src="pp1 (3).jpg" alt="Your Photo">
-            <h2>Avinash Gupta</h2>
-            <h3>Work Experience</h3>
-            <div class="logo-container">
-                <img src="png-transparent-logo-bain-company-germany-inc-brand-product-bain-company-logo-text-logo-usc.png" alt="Bain & Company Logo" class="company-logo">
-                <span>Bain & Company</span>
+            <div>
+                <h2>Avinash Gupta</h2>
+                <h3>Work Experience</h3>
+                <div class="logo-container">
+                    <img src="png-transparent-logo-bain-company-germany-inc-brand-product-bain-company-logo-text-logo-usc.png" alt="Bain & Company Logo" class="company-logo">
+                    <img src="Axtria_Logo.png" alt="Axtria Logo" class="company-logo">
+                    <!-- Add more company logos for work experience -->
+                </div>
+                <h3>Internship Experience</h3>
+                <div class="logo-container">
+                    <!-- Add internship logos -->
+                </div>
+                <h3>Education</h3>
+                <div class="logo-container">
+                    <!-- Add education logos -->
+                </div>
             </div>
-            <div class="logo-container">
-                <img src="Axtria_Logo.png" alt="Axtria Logo" class="company-logo">
-                <span>Axtria</span>
-            </div>
-            <h3>Internship Experience</h3>
-            <!-- Add internship experiences with company logos -->
-            <h3>Education</h3>
-            <!-- Add education details with college logos -->
         </div>
     </section>
     
