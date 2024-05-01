@@ -53,6 +53,9 @@
         .logo-container {
             margin-bottom: 10px;
             text-align: center;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
         }
 
         .logo-container img {
@@ -60,6 +63,7 @@
             height: auto;
             cursor: pointer;
             transition: transform 0.3s ease;
+            margin: 5px; /* Add margin between logos */
         }
 
         .logo-container img:hover {
@@ -100,6 +104,8 @@
                 </a>
                 <span style="margin-left: 5px;">toavinashgupta@gmail.com</span>
             </div>
+        </div>
+            </div>   
         </div>
         <div class="right-section">
             <div class="section">
