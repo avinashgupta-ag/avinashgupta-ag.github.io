@@ -6,23 +6,26 @@
     <title>Avinash Gupta - Resume</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-        /* Reset styles */
-        body, h1, h2, h3, h4, h5, h6, p, ul, li {
-            margin: 0;
-            padding: 0;
-        }
-
+        /* Add your custom styles here */
         body {
             font-family: Arial, sans-serif;
             background-color: #f5f5f5;
             color: #333;
             overflow-x: hidden;
+            margin: 0;
+            padding: 0;
         }
 
         header {
             background-color: #333;
             color: #fff;
             padding: 20px;
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+            top: 0;
+            left: 0;
+            transition: background-color 0.3s ease;
         }
 
         nav ul {
@@ -40,34 +43,26 @@
             color: #fff;
             text-decoration: none;
             font-weight: bold;
+            transition: color 0.3s ease;
         }
 
         nav ul li a:hover {
             text-decoration: underline;
+            color: #ffd700;
         }
 
         section {
-            padding: 20px;
-            margin: 20px 0;
+            padding: 40px;
+            margin: 80px 0;
             background-color: #fff;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s ease;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
         section:hover {
-            transform: scale(1.1);
-        }
-
-        section h2 {
-            margin-bottom: 10px;
-            font-size: 24px;
-            color: #333;
-        }
-
-        section p {
-            margin-bottom: 10px;
-            line-height: 1.6;
+            transform: scale(1.02);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
         }
 
         .work-experience {
@@ -76,49 +71,19 @@
             padding-right: 20px;
         }
 
-        .timeline {
-            position: relative;
-            padding-left: 40px;
-        }
-
-        .timeline::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 20px;
-            width: 2px;
-            height: 100%;
-            background-color: #ccc;
-        }
-
         .timeline-item {
             position: relative;
             padding: 20px 40px;
-            margin-bottom: 20px;
-            border-radius: 5px;
+            margin-bottom: 40px;
+            border-radius: 10px;
             background-color: #f9f9f9;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
         .timeline-item:hover {
-            transform: scale(1.05);
-        }
-
-        .timeline-item::before {
-            content: '';
-            position: absolute;
-            top: 50%;
-            left: 12px;
-            transform: translateY(-50%);
-            width: 12px;
-            height: 12px;
-            border-radius: 50%;
-            background-color: #333;
-        }
-
-        .timeline-item:last-child {
-            margin-bottom: 0;
+            transform: scale(1.02);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
         }
 
         .company-logo {
@@ -130,6 +95,14 @@
 
         .company-logo:hover {
             transform: scale(1.1);
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
         }
     </style>
 </head>
@@ -150,7 +123,7 @@
     <section id="about">
         <h2>About Me</h2>
         <div style="text-align: center;">
-            <img src="your_photo.jpg" alt="Your Photo" style="width: 200px; height: 200px; border-radius: 50%;">
+            <img src="https://drive.google.com/uc?id=1pVI-b3oPNtYSHQawzNSehe9j4sIiBSyE" alt="Your Photo" style="width: 200px; height: 200px; border-radius: 50%;">
             <p style="font-size: 20px; font-weight: bold; margin-top: 20px;">Hi, I'm Avinash Gupta</p>
         </div>
     </section>
@@ -160,7 +133,7 @@
         <div class="work-experience">
             <div class="timeline">
                 <div class="timeline-item">
-                    <img src="https://drive.google.com/file/d/1nnYV3vA_YOzcFRxRmqR4jDAyCHUH-8bi/view?usp=sharing" alt="Bain & Company" class="company-logo">
+                    <img src="https://drive.google.com/uc?id=1nnYV3vA_YOzcFRxRmqR4jDAyCHUH-8bi" alt="Bain & Company" class="company-logo">
                     <h3>Bain & Company, Gurugram, India</h3>
                     <p>Summer Associate (04/2023 – 06/2023)</p>
                     <ul>
@@ -171,7 +144,7 @@
                     </ul>
                 </div>
                 <div class="timeline-item">
-                    <img src="https://drive.google.com/file/d/1gokiyRUmA2Ndx9ssUveUz__jgxYEV0os/view?usp=sharing alt="Bain & Company" class="company-logo" alt="Axtria" class="company-logo">
+                    <img src="https://drive.google.com/uc?id=1gokiyRUmA2Ndx9ssUveUz__jgxYEV0os" alt="Axtria" class="company-logo">
                     <h3>Axtria, Gurugram, India</h3>
                     <p>Associate (03/2022 – 05/2022)</p>
                     <ul>
