@@ -179,29 +179,31 @@
         <!-- Add your portfolio projects here -->
         <!-- Include project descriptions, images, links, etc. -->
     </section>
+    
     <section id="contact">
-    <h2>Contact Me</h2>
-    <div style="display: flex; align-items: center;">
-        <div style="margin-right: 20px;">
-            <a href="https://www.linkedin.com/in/toavinashgupta">
-                <img src="linkedin_logo.png" alt="LinkedIn" style="width: 30px; height: 30px;">
-            </a>
-            <span style="margin-left: 5px;">LinkedIn</span>
+        <h2>Contact Me</h2>
+        <div style="display: flex; align-items: center;">
+            <div style="margin-right: 20px;">
+                <a href="https://www.linkedin.com/in/toavinashgupta">
+                    <img src="LinkedIn_icon.svg.png" alt="LinkedIn" style="width: 30px; height: 30px;">
+                </a>
+                <span style="margin-left: 5px;">LinkedIn</span>
+            </div>
+            <div style="margin-right: 20px;">
+                <a href="tel:+919884206218">
+                    <img src="green-phone-icon-vector-40526969.jpg" alt="Phone" style="width: 30px; height: 30px;">
+                </a>
+                <span style="margin-left: 5px;">+91-9884206218</span>
+            </div>
+            <div>
+                <a href="mailto:toavinashgupta@gmail.com">
+                    <img src="75c95f7281b1a5adf041f96a07f8a711.jpg" alt="Email" style="width: 30px; height: 30px;">
+                </a>
+                <span style="margin-left: 5px;">toavinashgupta@gmail.com</span>
+            </div>
         </div>
-        <div style="margin-right: 20px;">
-            <a href="tel:+919884206218">
-                <img src="phone_logo.png" alt="Phone" style="width: 30px; height: 30px;">
-            </a>
-            <span style="margin-left: 5px;">+91-9884206218</span>
-        </div>
-        <div>
-            <a href="mailto:toavinashgupta@gmail.com">
-                <img src="email_logo.png" alt="Email" style="width: 30px; height: 30px;">
-            </a>
-            <span style="margin-left: 5px;">toavinashgupta@gmail.com</span>
-        </div>
-    </div>
-</section>   
+    </section>   
+    
     <footer>
         <p>&copy; 2024 Avinash Gupta. All rights reserved.</p>
     </footer>
