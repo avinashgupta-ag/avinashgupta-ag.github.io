@@ -80,6 +80,9 @@
             padding: 10px;
             background-color: #f5f5f5;
             border-bottom: 1px solid #ccc;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
 
         .accordion-content {
@@ -88,14 +91,15 @@
         }
 
         .company-logo {
-            max-width: 100px;
+            max-width: 50px;
             height: auto;
             margin-right: 20px;
             transition: transform 0.3s ease;
+            display: none; /* Initially hide the logo */
         }
 
-        .company-logo:hover {
-            transform: scale(1.1);
+        .company-logo.active {
+            display: inline-block; /* Show logo when accordion is active */
         }
 
         .logo-container {
@@ -141,11 +145,8 @@
         <h2>Work Experience</h2>
         <div class="work-experience">
             <div class="accordion">
-                <h3 class="accordion-header">Bain & Company, Gurugram, India - Summer Associate (04/2023 – 06/2023)</h3>
+                <h3 class="accordion-header">Bain & Company, Gurugram, India - Summer Associate (04/2023 – 06/2023) <img src="png-transparent-logo-bain-company-germany-inc-brand-product-bain-company-logo-text-logo-usc.png" alt="Bain & Company Logo" class="company-logo"></h3>
                 <div class="accordion-content">
-                    <div class="logo-container">
-                        <img src="png-transparent-logo-bain-company-germany-inc-brand-product-bain-company-logo-text-logo-usc.png" alt="Bain & Company Logo" class="company-logo">
-                    </div>
                     <ul>
                         <li>Engaged in the B2C Pricing CoE and utilized Python and ML algorithms for KVI classification in the Retail Domain</li>
                         <li>Developed 5+ VBA dashboard to assess impact (units/revenue/margin) of shifting to user-recommended price index</li>
@@ -155,11 +156,8 @@
                 </div>
             </div>
             <div class="accordion">
-                <h3 class="accordion-header">Axtria, Gurugram, India - Associate (03/2022 – 05/2022)</h3>
+                <h3 class="accordion-header">Axtria, Gurugram, India - Associate (03/2022 – 05/2022) <img src="Axtria_Logo.png" alt="Axtria Logo" class="company-logo"></h3>
                 <div class="accordion-content">
-                    <div class="logo-container">
-                        <img src="Axtria_Logo.png" alt="Axtria Logo" class="company-logo">
-                    </div>
                     <ul>
                         <li>Contributed to ETL-based projects across 8+ Life Science subject areas within the Business Intelligence Management team</li>
                         <li>Attained consistent performance exceeding expectations and meeting 99% of the KPIs, resulting in successive promotions</li>
@@ -219,12 +217,3 @@
 
             header.addEventListener('click', () => {
                 const content = accordion.querySelector('.accordion-content');
-                content.classList.toggle('active');
-
-                // Toggle the accordion arrow icon
-                header.classList.toggle('active');
-            });
-        });
-    </script>
-</body>
-</html>
