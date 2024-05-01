@@ -143,7 +143,7 @@
                     </ul>
                 </div>
                 <div class="timeline-item">
-                    <img src="https://drive.google.com/uc?id=1gokiyRUmA2Ndx9ssUveUz__jgxYEV0os" alt="Axtria" class="company-logo">
+                    <img src="https://imgur.com/AAIPTxn" alt="Axtria" class="company-logo">
                     <h3>Axtria, Gurugram, India</h3>
                     <p>Associate (03/2022 – 05/2022)</p>
                     <ul>
