@@ -52,11 +52,11 @@
             background-color: #fff;
             border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            transition: background-color 0.3s ease;
+            transition: transform 0.3s ease;
         }
 
         section:hover {
-            background-color: #f9f9f9;
+            transform: scale(1.1);
         }
 
         section h2 {
@@ -98,6 +98,11 @@
             border-radius: 5px;
             background-color: #f9f9f9;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .timeline-item:hover {
+            transform: scale(1.05);
         }
 
         .timeline-item::before {
@@ -120,6 +125,11 @@
             max-width: 100px;
             height: auto;
             margin-right: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .company-logo:hover {
+            transform: scale(1.1);
         }
     </style>
 </head>
@@ -139,18 +149,10 @@
     
     <section id="about">
         <h2>About Me</h2>
-        <p>
-            Associate with 2.5 years of experience in the Life Sciences and Retail industry. Proficient in technical and functional roles. Completed four internships with reputable MNCs and participated in national-level competitions.
-        </p>
-        <p>
-            Functional Areas:
-            <ul>
-                <li>Business Analytics</li>
-                <li>Data Reconciliation</li>
-                <li>ETL Processes</li>
-                <li>Business Intelligence (BI)</li>
-            </ul>
-        </p>
+        <div style="text-align: center;">
+            <img src="your_photo.jpg" alt="Your Photo" style="width: 200px; height: 200px; border-radius: 50%;">
+            <p style="font-size: 20px; font-weight: bold; margin-top: 20px;">Hi, I'm Avinash Gupta</p>
+        </div>
     </section>
     
     <section id="work-experience">
