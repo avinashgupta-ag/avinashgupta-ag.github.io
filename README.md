@@ -69,12 +69,12 @@
             }
 
             .left-section {
-                width: 85%;
+                width: 82%;
                 margin-right: 20px;
             }
 
             .right-section {
-                width: 15%;
+                width: 18%;
             }
 
             .right-section .logo-container {
